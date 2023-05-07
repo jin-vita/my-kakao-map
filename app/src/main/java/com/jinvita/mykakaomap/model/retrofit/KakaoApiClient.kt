@@ -7,8 +7,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 object KakaoApiClient {
     const val BASE_URL = "https://dapi.kakao.com/"
 
-    //    const val API_KEY = "KakaoAK aea58e9057f35a2266511be81f92ee4a"
-    const val API_KEY = "KakaoAK e1e12e4da395be426f23e300338049cd"
+    const val API_KEY = "KakaoAK aea58e9057f35a2266511be81f92ee4a"
+
+    //    const val API_KEY = "KakaoAK e1e12e4da395be426f23e300338049cd"
     private val retrofit: Retrofit.Builder by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
